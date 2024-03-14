@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fileInventory type="version" objectId="druid:bb131xn0863" versionId="2" inventoryDatetime="2020-06-25T18:15:28Z" fileCount="12" byteCount="167573" blockCount="171">
+  <fileGroup groupId="content" dataSource="contentMetadata-preserve" fileCount="2" byteCount="109675" blockCount="108">
+    <file>
+      <fileSignature size="106995" md5="6bdbfc6e5b0427ed6bc36b2b572e8db7" sha1="87f8f210faa4827769a0df9731f5000350ccbc3a" sha256="d9f1a3be3d6445b742946fc8f63964f445798b9ed9cee57d2d4d34938db6e1b8"/>
+      <fileInstance path="data.zip" datetime=""/>
+    </file>
+    <file>
+      <fileSignature size="2680" md5="d8b61bce9074d564d2240ceece7e62fe" sha1="3cb56ead68bc7bc51333e8cbbf6579779cbf7449" sha256="e7349b360d84ac879ddfd3e0f3513ddd53a707eb9b08da8435711060e5333131"/>
+      <fileInstance path="preview.jpg" datetime=""/>
+    </file>
+  </fileGroup>
+  <fileGroup groupId="metadata" dataSource="/dor/workspace/bb/131/xn/0863/bb131xn0863/metadata" fileCount="10" byteCount="57898" blockCount="63">
+    <file>
+      <fileSignature size="2071" md5="eb1a53b0a38bd91165f7c5caf80a3927" sha1="fe361a4bedbe8790645b10e876b31e23f1c5deda" sha256="e55c8cc1865ce74fa6cf256b11eb675117c9fd2aa37cceceeeedbcec28e76e2a"/>
+      <fileInstance path="contentMetadata.xml" datetime="2020-06-25T18:15:27Z"/>
+    </file>
+    <file>
+      <fileSignature size="7192" md5="a68bd6e3cdab455d334c241d25b9a17a" sha1="05e55a708f2ae0a8dfbeceef037ba99895aeb5db" sha256="c456903702fa8bfb65ae84cd609fc9815841253887a2a5d008fba7c3afb8851c"/>
+      <fileInstance path="descMetadata.xml" datetime="2020-06-25T18:15:27Z"/>
+    </file>
+    <file>
+      <fileSignature size="107" md5="7dc57838b99186e0635a6c4f33b6405d" sha1="98db9df3a0a8cedb98d18b2d52f34b1b2a743dbc" sha256="e93b2499d4cc919638af9d2b8b2b8239dca78c4791748a1edda4abe91ddef141"/>
+      <fileInstance path="events.xml" datetime="2020-06-25T18:15:27Z"/>
+    </file>
+    <file>
+      <fileSignature size="31443" md5="e71b15d9650b0858e132a728b2d9da43" sha1="c6c8cefe7c396c7fe808854b9e4d99cb0500ff56" sha256="f52c1b336941975551280294fee44e25e8e1934a6ed036511e858208f79637c1"/>
+      <fileInstance path="geoMetadata.xml" datetime="2020-06-25T18:15:27Z"/>
+    </file>
+    <file>
+      <fileSignature size="476" md5="b067d05e15e03619b0638e878346ccea" sha1="71a441bd23286eb02d4f34abc8afa60c839d1bd1" sha256="68e86a8e660a4fc5f63bc5cf0de6da734c7be6e56be48213dc862a488bbd2aec"/>
+      <fileInstance path="identityMetadata.xml" datetime="2020-06-25T18:15:27Z"/>
+    </file>
+    <file>
+      <fileSignature size="263" md5="5f00f852500c5664e4c8488295ccf27a" sha1="879ecfd3a917cec9e45d88c9a36741bf090414b6" sha256="a95d19ad843c2bdb4f43aae9ccbbe6f30671cfb4f82baf0dc43a7cc2646b3f7d"/>
+      <fileInstance path="provenanceMetadata.xml" datetime="2020-06-25T18:15:27Z"/>
+    </file>
+    <file>
+      <fileSignature size="821" md5="dbe2757ed0df4b1b1fd24d91a345bea2" sha1="8f8b0cfe5b337c04ac841f7cba39ec2fcf31986a" sha256="d2feccf5fa527da27e8c7d53e87b9e018bb895f772e9efb477c5e23d3ae6441e"/>
+      <fileInstance path="relationshipMetadata.xml" datetime="2020-06-25T18:15:27Z"/>
+    </file>
+    <file>
+      <fileSignature size="653" md5="4e76c61a50a038c8ba76d2ee5864156d" sha1="76db5e30720e813f1c9708b892a1e690150d6fe5" sha256="527f8e7e7e68177e5dd07df65813dfdfe2f97bb420dc405b93d50953d0f60a35"/>
+      <fileInstance path="rightsMetadata.xml" datetime="2020-06-25T18:15:27Z"/>
+    </file>
+    <file>
+      <fileSignature size="222" md5="3b5a279422310447b7f7a1567e83017f" sha1="7bf888cb0920b276ba73553f394c3d77103d443d" sha256="6f45735a9c64409c66db340911199a21cf1865801025ff8cbe1a63a518b61708"/>
+      <fileInstance path="versionMetadata.xml" datetime="2020-06-25T18:15:27Z"/>
+    </file>
+    <file>
+      <fileSignature size="14650" md5="b96d33c96574f1aacfef0ab3b8229df2" sha1="cea54e0bb8705af64802463b044021cafd964d35" sha256="749a703cde0f7ba9356d628763bd09eb9c9b53a6044f810ec1e20ee49291f3c7"/>
+      <fileInstance path="workflows.xml" datetime="2020-06-25T18:15:27Z"/>
+    </file>
+  </fileGroup>
+</fileInventory>

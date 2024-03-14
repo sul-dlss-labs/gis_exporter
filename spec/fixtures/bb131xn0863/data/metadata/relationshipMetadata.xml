@@ -1,0 +1,10 @@
+
+<rdf:RDF xmlns:fedora="info:fedora/fedora-system:def/relations-external#" xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:hydra="http://projecthydra.org/ns/relations#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="info:fedora/druid:bb131xn0863">
+    <hydra:isGovernedBy rdf:resource="info:fedora/druid:ch620qs3195"></hydra:isGovernedBy>
+    <fedora-model:hasModel rdf:resource="info:fedora/afmodel:Dor_Item"></fedora-model:hasModel>
+    <fedora-model:hasModel rdf:resource="info:fedora/afmodel:Dor_Abstract"></fedora-model:hasModel>
+    <fedora:isMemberOf rdf:resource="info:fedora/druid:vc538rj6879"></fedora:isMemberOf>
+    <fedora:isMemberOfCollection rdf:resource="info:fedora/druid:vc538rj6879"></fedora:isMemberOfCollection>
+  </rdf:Description>
+</rdf:RDF>

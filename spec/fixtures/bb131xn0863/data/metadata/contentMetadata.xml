@@ -1,0 +1,35 @@
+<contentMetadata objectId="bb131xn0863" type="geo">
+  <resource id="bb131xn0863_1" sequence="1" type="object">
+    <label>Data</label>
+    <file preserve="yes" shelve="yes" publish="yes" id="data.zip" mimetype="application/zip" size="106995" role="master">
+      <geoData>
+        <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://purl.stanford.edu/bb131xn0863">
+        <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/x-esri-shapefile; format=Shapefile</dc:format>
+        <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/">Dataset#Polygon</dc:type>
+        <gml:boundedBy xmlns:gml="http://www.opengis.net/gml/3.2/">
+          <gml:Envelope gml:srsName="EPSG:4326">
+            <gml:lowerCorner>-91.578243 62.306186</gml:lowerCorner>
+            <gml:upperCorner>113.963119 89.694484</gml:upperCorner>
+          </gml:Envelope>
+        </gml:boundedBy>
+        <dc:coverage xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="http://sws.geonames.org/2960860/" dc:language="eng" dc:title="Arctic Ocean"/>
+      </rdf:Description>
+      </geoData>
+      <checksum type="sha1">87f8f210faa4827769a0df9731f5000350ccbc3a</checksum>
+      <checksum type="md5">6bdbfc6e5b0427ed6bc36b2b572e8db7</checksum>
+    </file>
+    <file preserve="no" shelve="yes" publish="yes" id="data_EPSG_4326.zip" mimetype="application/zip" size="91170" role="derivative">
+      <geoData srsName="EPSG:4326"/>
+      <checksum type="sha1">81ad0206c40c719ca3a159060462b1b3fd956ead</checksum>
+      <checksum type="md5">d691af149d46ee01c5760fd5e7b25ff8</checksum>
+    </file>
+  </resource>
+  <resource id="bb131xn0863_2" sequence="2" type="preview">
+    <label>Preview</label>
+    <file preserve="yes" shelve="yes" publish="yes" id="preview.jpg" mimetype="image/jpeg" size="2680" role="master">
+      <checksum type="sha1">3cb56ead68bc7bc51333e8cbbf6579779cbf7449</checksum>
+      <checksum type="md5">d8b61bce9074d564d2240ceece7e62fe</checksum>
+      <imageData width="200" height="133"/>
+    </file>
+  </resource>
+</contentMetadata>

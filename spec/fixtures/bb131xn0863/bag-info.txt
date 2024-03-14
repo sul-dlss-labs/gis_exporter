@@ -1,0 +1,3 @@
+External-Identifier: druid:bb131xn0863-v2
+Payload-Oxum: 167573.12
+Bag-Size: 163.65 KB

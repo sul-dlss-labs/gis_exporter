@@ -1,0 +1,31 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# usage: gis_exporter bags_dir export_dir
+#
+# bags_dir should point to a directory full of GIS bags exported with SDR-GET
+
+$LOAD_PATH.unshift(File.expand_path('../lib', __dir__))
+
+require 'pathname'
+require 'gis_exporter'
+
+abort('usage: gis_exporter bags_dir export_dir') unless ARGV.length == 2
+
+bags_dir = Pathname(ARGV[0])
+abort("bags directory #{bags_dir} doesn't exist") unless bags_dir.directory?
+
+export_root = Pathname.new(ARGV[1])
+abort("export root #{export_root} doesn't exist") unless export_root.directory?
+
+bags_dir.children.each do |bag_dir|
+  puts bag_dir
+  export_dir = export_root.join(bag_dir.basename)
+
+  begin
+    GisExporter.export(bag_dir, export_dir)
+    puts "info: exported #{bag_dir} to #{export_dir}"
+  rescue GisExporter::Error => e
+    puts "error: #{e} when exporting #{druid}"
+  end
+end
