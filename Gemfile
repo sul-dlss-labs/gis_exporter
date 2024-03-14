@@ -4,4 +4,6 @@ source "https://rubygems.org"
 
 gem "rubyzip"
 
-gem "rspec", "~> 3.13"
+group :development do
+  gem "rspec", "~> 3.13"
+end

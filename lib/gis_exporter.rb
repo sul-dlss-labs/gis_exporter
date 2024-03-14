@@ -30,7 +30,7 @@ class GisExporter
     data_zip_entries.each do |entry|
       File.open(@export_dir.join(entry.name), 'wb') do |output|
         entry.get_input_stream do |input|
-          while (data = input.read(1024))
+          while (data = input.read(8192))
             output.write(data)
           end
         end
