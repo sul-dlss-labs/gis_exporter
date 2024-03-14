@@ -26,6 +26,6 @@ bags_dir.children.each do |bag_dir|
     GisExporter.export(bag_dir, export_dir)
     puts "info: exported #{bag_dir} to #{export_dir}"
   rescue GisExporter::Error => e
-    puts "error: #{e} when exporting #{druid}"
+    puts "error: #{e} when exporting #{bag_dir}"
   end
 end
