@@ -78,8 +78,30 @@ RSpec.describe GisExporter do
     end
 
     describe '#run_export' do
-      it 'export raises an exception' do
+      it 'raises a missing data.zip exception' do
         expect { gis.run_export }.to raise_error(GisExporter::MissingDataZip)
+      end
+    end
+  end
+
+  context 'when data.zip contains files in a sub-directory' do
+    let(:bag_dir) { 'spec/fixtures/bc219nr7497' }
+
+    describe '#run_export' do
+      it 'flattens the files' do
+        gis.run_export
+        files = Pathname.new(export_dir).children.sort
+        expect(files.length).to eq(8)
+      end
+    end
+  end
+
+  context 'when data.zip contains duplicate filenames' do
+    let(:bag_dir) { 'spec/fixtures/duplicate-file' }
+
+    describe '#run_export' do
+      it 'raises a duplicate filename exception' do
+        expect { gis.run_export }.to raise_error(GisExporter::DuplicateFilename)
       end
     end
   end

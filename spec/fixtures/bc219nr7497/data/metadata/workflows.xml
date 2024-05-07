@@ -1,0 +1,252 @@
+<workflows objectId="druid:bc219nr7497">
+  <workflow objectId="druid:bc219nr7497" id="accessionWF">
+    <process version="1" note="" lifecycle="submitted" laneId="default" elapsed="" attempts="0" datetime="2019-09-27T19:13:23+00:00" status="completed" name="start-accession"/>
+    <process version="1" note="common-accessioning-prod-d.stanford.edu" lifecycle="described" laneId="default" elapsed="0.853" attempts="0" datetime="2019-09-27T19:13:23+00:00" status="completed" name="descriptive-metadata"/>
+    <process version="1" note="common-accessioning-prod-d.stanford.edu" lifecycle="" laneId="default" elapsed="0.522" attempts="0" datetime="2019-09-27T19:13:23+00:00" status="completed" name="rights-metadata"/>
+    <process version="1" note="common-accessioning-prod-d.stanford.edu" lifecycle="" laneId="default" elapsed="0.606" attempts="0" datetime="2019-09-27T19:13:23+00:00" status="completed" name="content-metadata"/>
+    <process version="1" note="common-accessioning-prod-d.stanford.edu" lifecycle="" laneId="default" elapsed="2.659" attempts="0" datetime="2019-09-27T19:13:23+00:00" status="completed" name="technical-metadata"/>
+    <process version="1" note="common-accessioning-prod-d.stanford.edu" lifecycle="" laneId="default" elapsed="0.143" attempts="0" datetime="2019-09-27T19:13:23+00:00" status="completed" name="remediate-object"/>
+    <process version="1" note="common-accessioning-prod-a.stanford.edu" lifecycle="" laneId="default" elapsed="0.693" attempts="0" datetime="2019-09-27T19:13:23+00:00" status="completed" name="shelve"/>
+    <process version="1" note="common-accessioning-prod-c.stanford.edu" lifecycle="published" laneId="default" elapsed="1.038" attempts="0" datetime="2019-09-27T19:13:23+00:00" status="completed" name="publish"/>
+    <process version="1" note="common-accessioning-prod-c.stanford.edu" lifecycle="" laneId="default" elapsed="0.386" attempts="0" datetime="2019-09-27T19:13:23+00:00" status="completed" name="provenance-metadata"/>
+    <process version="1" note="common-accessioning-prod-b.stanford.edu" lifecycle="" laneId="default" elapsed="0.85" attempts="0" datetime="2019-09-27T19:13:23+00:00" status="completed" name="sdr-ingest-transfer"/>
+    <process version="1" note="preservationIngestWF completed on preservation-robots1-prod.stanford.edu" lifecycle="deposited" laneId="default" elapsed="1.0" attempts="0" datetime="2019-09-27T19:13:23+00:00" status="completed" name="sdr-ingest-received"/>
+    <process version="1" note="common-accessioning-prod-b.stanford.edu" lifecycle="" laneId="default" elapsed="0.163" attempts="0" datetime="2019-09-27T19:13:23+00:00" status="completed" name="reset-workspace"/>
+    <process version="1" note="common-accessioning-prod-b.stanford.edu" lifecycle="accessioned" laneId="default" elapsed="0.526" attempts="0" datetime="2019-09-27T19:13:23+00:00" status="completed" name="end-accession"/>
+    <process version="2" note="" lifecycle="submitted" laneId="default" elapsed="" attempts="0" datetime="2019-10-17T16:51:22+00:00" status="completed" name="start-accession"/>
+    <process version="2" note="common-accessioning-prod-a.stanford.edu" lifecycle="described" laneId="default" elapsed="0.886" attempts="0" datetime="2019-10-17T16:51:22+00:00" status="completed" name="descriptive-metadata"/>
+    <process version="2" note="common-accessioning-prod-a.stanford.edu" lifecycle="" laneId="default" elapsed="0.389" attempts="0" datetime="2019-10-17T16:51:22+00:00" status="completed" name="rights-metadata"/>
+    <process version="2" note="common-accessioning-prod-a.stanford.edu" lifecycle="" laneId="default" elapsed="0.385" attempts="0" datetime="2019-10-17T16:51:22+00:00" status="completed" name="content-metadata"/>
+    <process version="2" note="common-accessioning-prod-d.stanford.edu" lifecycle="" laneId="default" elapsed="2.401" attempts="0" datetime="2019-10-17T16:51:22+00:00" status="completed" name="technical-metadata"/>
+    <process version="2" note="common-accessioning-prod-d.stanford.edu" lifecycle="" laneId="default" elapsed="0.142" attempts="0" datetime="2019-10-17T16:51:22+00:00" status="completed" name="remediate-object"/>
+    <process version="2" note="common-accessioning-prod-d.stanford.edu" lifecycle="" laneId="default" elapsed="0.875" attempts="0" datetime="2019-10-17T16:51:22+00:00" status="completed" name="shelve"/>
+    <process version="2" note="common-accessioning-prod-d.stanford.edu" lifecycle="published" laneId="default" elapsed="0.964" attempts="0" datetime="2019-10-17T16:51:22+00:00" status="completed" name="publish"/>
+    <process version="2" note="common-accessioning-prod-d.stanford.edu" lifecycle="" laneId="default" elapsed="0.355" attempts="0" datetime="2019-10-17T16:51:22+00:00" status="completed" name="provenance-metadata"/>
+    <process version="2" note="common-accessioning-prod-d.stanford.edu" lifecycle="" laneId="default" elapsed="0.937" attempts="0" datetime="2019-10-17T16:51:22+00:00" status="completed" name="sdr-ingest-transfer"/>
+    <process version="2" note="preservationIngestWF completed on preservation-robots1-prod.stanford.edu" lifecycle="deposited" laneId="default" elapsed="1.0" attempts="0" datetime="2019-10-17T16:51:22+00:00" status="completed" name="sdr-ingest-received"/>
+    <process version="2" note="common-accessioning-prod-b.stanford.edu" lifecycle="" laneId="default" elapsed="0.168" attempts="0" datetime="2019-10-17T16:51:22+00:00" status="completed" name="reset-workspace"/>
+    <process version="2" note="common-accessioning-prod-b.stanford.edu" lifecycle="accessioned" laneId="default" elapsed="0.468" attempts="0" datetime="2019-10-17T16:51:22+00:00" status="completed" name="end-accession"/>
+    <process version="3" note="" lifecycle="submitted" laneId="default" elapsed="" attempts="0" datetime="2020-06-25T17:11:04+00:00" status="completed" name="start-accession"/>
+    <process version="3" note="common-accessioning-prod-b.stanford.edu" lifecycle="described" laneId="default" elapsed="1.0" attempts="0" datetime="2020-06-25T17:11:04+00:00" status="completed" name="descriptive-metadata"/>
+    <process version="3" note="common-accessioning-prod-b.stanford.edu" lifecycle="" laneId="default" elapsed="0.51" attempts="0" datetime="2020-06-25T17:11:04+00:00" status="completed" name="rights-metadata"/>
+    <process version="3" note="common-accessioning-prod-b.stanford.edu" lifecycle="" laneId="default" elapsed="0.575" attempts="0" datetime="2020-06-25T17:11:04+00:00" status="completed" name="content-metadata"/>
+    <process version="3" note="common-accessioning-prod-b.stanford.edu" lifecycle="" laneId="default" elapsed="3.143" attempts="0" datetime="2020-06-25T17:11:04+00:00" status="completed" name="technical-metadata"/>
+    <process version="3" note="common-accessioning-prod-b.stanford.edu" lifecycle="" laneId="default" elapsed="0.154" attempts="0" datetime="2020-06-25T17:11:04+00:00" status="completed" name="remediate-object"/>
+    <process version="3" note="common-accessioning-prod-b.stanford.edu" lifecycle="" laneId="default" elapsed="0.741" attempts="0" datetime="2020-06-25T17:11:04+00:00" status="completed" name="shelve"/>
+    <process version="3" note="common-accessioning-prod-d.stanford.edu" lifecycle="published" laneId="default" elapsed="1.148" attempts="0" datetime="2020-06-25T17:11:04+00:00" status="completed" name="publish"/>
+    <process version="3" note="common-accessioning-prod-d.stanford.edu" lifecycle="" laneId="default" elapsed="0.594" attempts="0" datetime="2020-06-25T17:11:04+00:00" status="completed" name="provenance-metadata"/>
+    <process version="3" note="common-accessioning-prod-b.stanford.edu" lifecycle="" laneId="default" elapsed="0.993" attempts="0" datetime="2020-06-25T17:11:04+00:00" status="completed" name="sdr-ingest-transfer"/>
+    <process version="3" note="preservationIngestWF completed on preservation-robots1-prod.stanford.edu" lifecycle="deposited" laneId="default" elapsed="1.0" attempts="0" datetime="2020-06-25T17:11:04+00:00" status="completed" name="sdr-ingest-received"/>
+    <process version="3" note="common-accessioning-prod-a.stanford.edu" lifecycle="" laneId="default" elapsed="0.105" attempts="0" datetime="2020-06-25T17:11:04+00:00" status="completed" name="reset-workspace"/>
+    <process version="3" note="common-accessioning-prod-c.stanford.edu" lifecycle="accessioned" laneId="default" elapsed="0.567" attempts="0" datetime="2020-06-25T17:11:04+00:00" status="completed" name="end-accession"/>
+    <process version="4" note="" lifecycle="submitted" laneId="default" elapsed="" attempts="0" datetime="2021-10-14T16:25:08+00:00" status="completed" name="start-accession"/>
+    <process version="4" note="No descMetadata.xml was provided" lifecycle="described" laneId="default" elapsed="0.024" attempts="0" datetime="2021-10-14T16:25:08+00:00" status="skipped" name="descriptive-metadata"/>
+    <process version="4" note="No rightsMetadata.xml was provided" lifecycle="" laneId="default" elapsed="0.012" attempts="0" datetime="2021-10-14T16:25:08+00:00" status="skipped" name="rights-metadata"/>
+    <process version="4" note="No contentMetadata.xml was provided" lifecycle="" laneId="default" elapsed="2.439" attempts="0" datetime="2021-10-14T16:25:08+00:00" status="skipped" name="content-metadata"/>
+    <process version="4" note="change is metadata-only" lifecycle="" laneId="default" elapsed="1.871" attempts="0" datetime="2021-10-14T16:25:08+00:00" status="skipped" name="technical-metadata"/>
+    <process version="4" note="common-accessioning-prod-e.stanford.edu" lifecycle="" laneId="default" elapsed="0.0" attempts="0" datetime="2021-10-14T16:25:08+00:00" status="completed" name="remediate-object"/>
+    <process version="4" note="Completed Job 1464463 on dor-services-app" lifecycle="" laneId="default" elapsed="1.0" attempts="0" datetime="2021-10-14T16:25:08+00:00" status="completed" name="shelve"/>
+    <process version="4" note="Completed Job 1467632 on dor-services-app" lifecycle="published" laneId="default" elapsed="1.0" attempts="0" datetime="2021-10-14T16:25:08+00:00" status="completed" name="publish"/>
+    <process version="4" note="common-accessioning-prod-e.stanford.edu" lifecycle="" laneId="default" elapsed="1.184" attempts="0" datetime="2021-10-14T16:25:08+00:00" status="completed" name="provenance-metadata"/>
+    <process version="4" note="Completed Job 1472592 on dor-services-app" lifecycle="" laneId="default" elapsed="1.0" attempts="0" datetime="2021-10-14T16:25:08+00:00" status="completed" name="sdr-ingest-transfer"/>
+    <process version="4" note="preservationIngestWF completed on preservation-robots1-prod.stanford.edu" lifecycle="deposited" laneId="default" elapsed="1.0" attempts="0" datetime="2021-10-14T16:25:09+00:00" status="completed" name="sdr-ingest-received"/>
+    <process version="4" note="common-accessioning-prod-c.stanford.edu" lifecycle="" laneId="default" elapsed="0.133" attempts="0" datetime="2021-10-14T16:25:09+00:00" status="completed" name="reset-workspace"/>
+    <process version="4" note="common-accessioning-prod-c.stanford.edu" lifecycle="accessioned" laneId="default" elapsed="11.091" attempts="0" datetime="2021-10-14T16:25:09+00:00" status="completed" name="end-accession"/>
+    <process version="5" note="" lifecycle="submitted" laneId="default" elapsed="" attempts="0" datetime="2021-10-14T17:07:09+00:00" status="completed" name="start-accession"/>
+    <process version="5" note="No descMetadata.xml was provided" lifecycle="described" laneId="default" elapsed="0.192" attempts="0" datetime="2021-10-14T17:07:09+00:00" status="skipped" name="descriptive-metadata"/>
+    <process version="5" note="No rightsMetadata.xml was provided" lifecycle="" laneId="default" elapsed="0.064" attempts="0" datetime="2021-10-14T17:07:09+00:00" status="skipped" name="rights-metadata"/>
+    <process version="5" note="No contentMetadata.xml was provided" lifecycle="" laneId="default" elapsed="0.495" attempts="0" datetime="2021-10-14T17:07:09+00:00" status="skipped" name="content-metadata"/>
+    <process version="5" note="change is metadata-only" lifecycle="" laneId="default" elapsed="0.504" attempts="0" datetime="2021-10-14T17:07:09+00:00" status="skipped" name="technical-metadata"/>
+    <process version="5" note="common-accessioning-prod-c.stanford.edu" lifecycle="" laneId="default" elapsed="0.0" attempts="0" datetime="2021-10-14T17:07:09+00:00" status="completed" name="remediate-object"/>
+    <process version="5" note="Completed Job 8558845 on dor-services-app" lifecycle="" laneId="default" elapsed="1.0" attempts="0" datetime="2021-10-14T17:07:09+00:00" status="completed" name="shelve"/>
+    <process version="5" note="Completed Job 8558846 on dor-services-app" lifecycle="published" laneId="default" elapsed="1.0" attempts="0" datetime="2021-10-14T17:07:09+00:00" status="completed" name="publish"/>
+    <process version="5" note="Object does not have a DOI" lifecycle="" laneId="default" elapsed="0.352" attempts="0" datetime="2021-10-14T17:07:09+00:00" status="skipped" name="update-doi"/>
+    <process version="5" note="common-accessioning-prod-a.stanford.edu" lifecycle="" laneId="default" elapsed="0.843" attempts="0" datetime="2021-10-14T17:07:09+00:00" status="completed" name="provenance-metadata"/>
+    <process version="5" note="Completed Job 8558849 on dor-services-app" lifecycle="" laneId="default" elapsed="1.0" attempts="0" datetime="2021-10-14T17:07:09+00:00" status="completed" name="sdr-ingest-transfer"/>
+    <process version="5" note="preservationIngestWF completed on preservation-robots1-prod.stanford.edu" lifecycle="deposited" laneId="default" elapsed="1.0" attempts="0" datetime="2021-10-14T17:07:09+00:00" status="completed" name="sdr-ingest-received"/>
+    <process version="5" note="common-accessioning-prod-b.stanford.edu" lifecycle="" laneId="default" elapsed="0.574" attempts="0" datetime="2021-10-14T17:07:09+00:00" status="completed" name="reset-workspace"/>
+    <process version="5" note="common-accessioning-prod-b.stanford.edu" lifecycle="accessioned" laneId="default" elapsed="2.44" attempts="0" datetime="2021-10-14T17:07:09+00:00" status="completed" name="end-accession"/>
+    <process version="6" note="" lifecycle="submitted" laneId="default" elapsed="" attempts="0" datetime="2021-10-14T17:07:09+00:00" status="completed" name="start-accession"/>
+    <process version="6" note="No descMetadata.xml was provided" lifecycle="described" laneId="default" elapsed="0.184" attempts="0" datetime="2021-10-14T17:07:12+00:00" status="skipped" name="descriptive-metadata"/>
+    <process version="6" note="No rightsMetadata.xml was provided" lifecycle="" laneId="default" elapsed="0.064" attempts="0" datetime="2021-10-14T17:07:12+00:00" status="skipped" name="rights-metadata"/>
+    <process version="6" note="No contentMetadata.xml was provided" lifecycle="" laneId="default" elapsed="0.46" attempts="0" datetime="2021-10-14T17:07:12+00:00" status="skipped" name="content-metadata"/>
+    <process version="6" note="change is metadata-only" lifecycle="" laneId="default" elapsed="0.482" attempts="0" datetime="2021-10-14T17:07:13+00:00" status="skipped" name="technical-metadata"/>
+    <process version="6" note="common-accessioning-prod-b.stanford.edu" lifecycle="" laneId="default" elapsed="0.0" attempts="0" datetime="2021-10-14T17:07:13+00:00" status="completed" name="remediate-object"/>
+    <process version="6" note="Completed Job 8559111 on dor-services-app" lifecycle="" laneId="default" elapsed="1.0" attempts="0" datetime="2021-10-14T17:07:14+00:00" status="completed" name="shelve"/>
+    <process version="6" note="Completed Job 8559112 on dor-services-app" lifecycle="published" laneId="default" elapsed="1.0" attempts="0" datetime="2021-10-14T17:07:19+00:00" status="completed" name="publish"/>
+    <process version="6" note="Object does not have a DOI" lifecycle="" laneId="default" elapsed="0.368" attempts="0" datetime="2021-10-14T17:07:21+00:00" status="skipped" name="update-doi"/>
+    <process version="6" note="common-accessioning-prod-b.stanford.edu" lifecycle="" laneId="default" elapsed="0.456" attempts="0" datetime="2021-10-14T17:07:20+00:00" status="completed" name="provenance-metadata"/>
+    <process version="6" note="common-accessioning-prod-b.stanford.edu" lifecycle="" laneId="default" elapsed="1.0" attempts="0" datetime="2021-10-14T17:07:21+00:00" status="started" name="sdr-ingest-transfer"/>
+    <process version="6" note="" lifecycle="deposited" laneId="default" elapsed="" attempts="0" datetime="2021-10-14T17:07:09+00:00" status="waiting" name="sdr-ingest-received"/>
+    <process version="6" note="" lifecycle="" laneId="default" elapsed="" attempts="0" datetime="2021-10-14T17:07:09+00:00" status="waiting" name="reset-workspace"/>
+    <process version="6" note="" lifecycle="accessioned" laneId="default" elapsed="" attempts="0" datetime="2021-10-14T17:07:09+00:00" status="waiting" name="end-accession"/>
+  </workflow>
+  <workflow objectId="druid:bc219nr7497" id="disseminationWF">
+    <process version="1" note="common-accessioning-prod-d.stanford.edu" lifecycle="" laneId="default" elapsed="0.145" attempts="0" datetime="2019-09-27T19:13:37+00:00" status="completed" name="cleanup"/>
+    <process version="2" note="common-accessioning-prod-e.stanford.edu" lifecycle="" laneId="default" elapsed="0.147" attempts="0" datetime="2019-10-17T16:51:39+00:00" status="completed" name="cleanup"/>
+    <process version="3" note="common-accessioning-prod-b.stanford.edu" lifecycle="" laneId="default" elapsed="1.377" attempts="0" datetime="2019-10-17T16:51:41+00:00" status="completed" name="cleanup"/>
+  </workflow>
+  <workflow objectId="druid:bc219nr7497" id="gisAssemblyWF">
+    <process version="1" note="" lifecycle="" laneId="default" elapsed="" attempts="0" datetime="2019-09-27T19:12:19+00:00" status="completed" name="start-gis-assembly-workflow"/>
+    <process version="1" note="" lifecycle="" laneId="default" elapsed="" attempts="0" datetime="2019-09-27T19:12:19+00:00" status="completed" name="register-druid"/>
+    <process version="1" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.002" attempts="0" datetime="2019-09-27T19:12:19+00:00" status="completed" name="author-metadata"/>
+    <process version="1" note="" lifecycle="" laneId="default" elapsed="" attempts="0" datetime="2019-09-27T19:12:19+00:00" status="skipped" name="approve-metadata"/>
+    <process version="1" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.006" attempts="0" datetime="2019-09-27T19:12:19+00:00" status="completed" name="extract-thumbnail"/>
+    <process version="1" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.069" attempts="0" datetime="2019-09-27T19:12:19+00:00" status="completed" name="extract-iso19139"/>
+    <process version="1" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.007" attempts="0" datetime="2019-09-27T19:12:19+00:00" status="completed" name="generate-geo-metadata"/>
+    <process version="1" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.011" attempts="0" datetime="2019-09-27T19:12:19+00:00" status="completed" name="generate-mods"/>
+    <process version="1" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.069" attempts="0" datetime="2019-09-27T19:12:19+00:00" status="completed" name="assign-placenames"/>
+    <process version="1" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.0" attempts="0" datetime="2019-09-27T19:12:19+00:00" status="completed" name="finish-metadata"/>
+    <process version="1" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.001" attempts="0" datetime="2019-09-27T19:12:19+00:00" status="completed" name="wrangle-data"/>
+    <process version="1" note="" lifecycle="" laneId="default" elapsed="" attempts="0" datetime="2019-09-27T19:12:19+00:00" status="skipped" name="approve-data"/>
+    <process version="1" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.039" attempts="0" datetime="2019-09-27T19:12:19+00:00" status="completed" name="package-data"/>
+    <process version="1" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.195" attempts="0" datetime="2019-09-27T19:12:18+00:00" status="completed" name="normalize-data"/>
+    <process version="1" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.03" attempts="0" datetime="2019-09-27T19:12:19+00:00" status="completed" name="extract-boundingbox"/>
+    <process version="1" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.0" attempts="0" datetime="2019-09-27T19:12:19+00:00" status="completed" name="finish-data"/>
+    <process version="1" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.038" attempts="0" datetime="2019-09-27T19:12:19+00:00" status="completed" name="generate-content-metadata"/>
+    <process version="1" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="2.057" attempts="0" datetime="2019-09-27T19:12:19+00:00" status="completed" name="load-geo-metadata"/>
+    <process version="1" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.076" attempts="0" datetime="2019-09-27T19:12:19+00:00" status="completed" name="finish-gis-assembly-workflow"/>
+    <process version="1" note="" lifecycle="" laneId="default" elapsed="" attempts="0" datetime="2019-09-27T19:12:19+00:00" status="skipped" name="start-assembly-workflow"/>
+    <process version="1" note="" lifecycle="" laneId="default" elapsed="" attempts="0" datetime="2019-09-27T19:12:19+00:00" status="skipped" name="start-delivery-workflow"/>
+    <process version="2" note="" lifecycle="" laneId="default" elapsed="" attempts="0" datetime="2019-10-17T16:30:34+00:00" status="completed" name="start-gis-assembly-workflow"/>
+    <process version="2" note="" lifecycle="" laneId="default" elapsed="" attempts="0" datetime="2019-10-17T16:30:35+00:00" status="completed" name="register-druid"/>
+    <process version="2" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.002" attempts="0" datetime="2019-10-17T16:30:35+00:00" status="completed" name="author-metadata"/>
+    <process version="2" note="" lifecycle="" laneId="default" elapsed="" attempts="0" datetime="2019-10-17T16:30:35+00:00" status="skipped" name="approve-metadata"/>
+    <process version="2" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.02" attempts="0" datetime="2019-10-17T16:30:36+00:00" status="completed" name="extract-thumbnail"/>
+    <process version="2" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.089" attempts="0" datetime="2019-10-17T16:30:36+00:00" status="completed" name="extract-iso19139"/>
+    <process version="2" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.013" attempts="0" datetime="2019-10-17T16:30:36+00:00" status="completed" name="generate-geo-metadata"/>
+    <process version="2" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.008" attempts="0" datetime="2019-10-17T16:30:36+00:00" status="completed" name="generate-mods"/>
+    <process version="2" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.073" attempts="0" datetime="2019-10-17T16:30:36+00:00" status="completed" name="assign-placenames"/>
+    <process version="2" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.0" attempts="0" datetime="2019-10-17T16:30:36+00:00" status="completed" name="finish-metadata"/>
+    <process version="2" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.001" attempts="0" datetime="2019-10-17T16:30:37+00:00" status="completed" name="wrangle-data"/>
+    <process version="2" note="" lifecycle="" laneId="default" elapsed="" attempts="0" datetime="2019-10-17T16:30:35+00:00" status="skipped" name="approve-data"/>
+    <process version="2" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.039" attempts="0" datetime="2019-10-17T16:30:37+00:00" status="completed" name="package-data"/>
+    <process version="2" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.179" attempts="0" datetime="2019-10-17T16:30:37+00:00" status="completed" name="normalize-data"/>
+    <process version="2" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.028" attempts="0" datetime="2019-10-17T16:30:37+00:00" status="completed" name="extract-boundingbox"/>
+    <process version="2" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.0" attempts="0" datetime="2019-10-17T16:30:37+00:00" status="completed" name="finish-data"/>
+    <process version="2" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.026" attempts="0" datetime="2019-10-17T16:30:37+00:00" status="completed" name="generate-content-metadata"/>
+    <process version="2" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="2.277" attempts="0" datetime="2019-10-17T16:30:37+00:00" status="completed" name="load-geo-metadata"/>
+    <process version="2" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.078" attempts="0" datetime="2019-10-17T16:30:37+00:00" status="completed" name="finish-gis-assembly-workflow"/>
+    <process version="2" note="" lifecycle="" laneId="default" elapsed="" attempts="0" datetime="2019-10-17T16:30:35+00:00" status="skipped" name="start-assembly-workflow"/>
+    <process version="2" note="" lifecycle="" laneId="default" elapsed="" attempts="0" datetime="2019-10-17T16:30:35+00:00" status="skipped" name="start-delivery-workflow"/>
+    <process version="3" note="" lifecycle="" laneId="default" elapsed="" attempts="0" datetime="2019-10-17T16:30:37+00:00" status="completed" name="start-gis-assembly-workflow"/>
+    <process version="3" note="" lifecycle="" laneId="default" elapsed="" attempts="0" datetime="2019-10-17T16:30:37+00:00" status="completed" name="register-druid"/>
+    <process version="3" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.002" attempts="0" datetime="2019-10-17T16:30:40+00:00" status="completed" name="author-metadata"/>
+    <process version="3" note="" lifecycle="" laneId="default" elapsed="" attempts="0" datetime="2019-10-17T16:30:37+00:00" status="skipped" name="approve-metadata"/>
+    <process version="3" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.02" attempts="0" datetime="2019-10-17T16:30:40+00:00" status="completed" name="extract-thumbnail"/>
+    <process version="3" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.07" attempts="0" datetime="2019-10-17T16:30:40+00:00" status="completed" name="extract-iso19139"/>
+    <process version="3" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.007" attempts="0" datetime="2019-10-17T16:30:41+00:00" status="completed" name="generate-geo-metadata"/>
+    <process version="3" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.01" attempts="0" datetime="2019-10-17T16:30:41+00:00" status="completed" name="generate-mods"/>
+    <process version="3" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.072" attempts="0" datetime="2019-10-17T16:30:41+00:00" status="completed" name="assign-placenames"/>
+    <process version="3" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.0" attempts="0" datetime="2019-10-17T16:30:41+00:00" status="completed" name="finish-metadata"/>
+    <process version="3" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.002" attempts="0" datetime="2019-10-17T16:30:41+00:00" status="completed" name="wrangle-data"/>
+    <process version="3" note="" lifecycle="" laneId="default" elapsed="" attempts="0" datetime="2019-10-17T16:30:38+00:00" status="skipped" name="approve-data"/>
+    <process version="3" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.046" attempts="0" datetime="2019-10-17T16:30:41+00:00" status="completed" name="package-data"/>
+    <process version="3" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.287" attempts="0" datetime="2019-10-17T16:30:42+00:00" status="completed" name="normalize-data"/>
+    <process version="3" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.035" attempts="0" datetime="2019-10-17T16:30:42+00:00" status="completed" name="extract-boundingbox"/>
+    <process version="3" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.0" attempts="0" datetime="2019-10-17T16:30:42+00:00" status="completed" name="finish-data"/>
+    <process version="3" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.03" attempts="0" datetime="2019-10-17T16:30:42+00:00" status="completed" name="generate-content-metadata"/>
+    <process version="3" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="3.658" attempts="0" datetime="2019-10-17T16:30:46+00:00" status="completed" name="load-geo-metadata"/>
+    <process version="3" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.17" attempts="0" datetime="2019-10-17T16:30:46+00:00" status="completed" name="finish-gis-assembly-workflow"/>
+    <process version="3" note="" lifecycle="" laneId="default" elapsed="" attempts="0" datetime="2019-10-17T16:30:38+00:00" status="skipped" name="start-assembly-workflow"/>
+    <process version="3" note="" lifecycle="" laneId="default" elapsed="" attempts="0" datetime="2019-10-17T16:30:38+00:00" status="skipped" name="start-delivery-workflow"/>
+  </workflow>
+  <workflow objectId="druid:bc219nr7497" id="gisDeliveryWF">
+    <process version="1" note="" lifecycle="" laneId="default" elapsed="" attempts="0" datetime="2019-09-27T19:12:30+00:00" status="completed" name="start-gis-delivery-workflow"/>
+    <process version="1" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.008" attempts="0" datetime="2019-09-27T19:12:30+00:00" status="completed" name="load-vector"/>
+    <process version="1" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.171" attempts="0" datetime="2019-09-27T19:12:30+00:00" status="completed" name="load-raster"/>
+    <process version="1" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.605" attempts="0" datetime="2019-09-27T19:12:30+00:00" status="completed" name="load-geoserver"/>
+    <process version="1" note="" lifecycle="" laneId="default" elapsed="" attempts="0" datetime="2019-09-27T19:12:30+00:00" status="skipped" name="load-geowebcache"/>
+    <process version="1" note="" lifecycle="" laneId="default" elapsed="" attempts="0" datetime="2019-09-27T19:12:30+00:00" status="skipped" name="seed-geowebcache"/>
+    <process version="1" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.127" attempts="0" datetime="2019-09-27T19:12:30+00:00" status="completed" name="finish-gis-delivery-workflow"/>
+    <process version="1" note="" lifecycle="" laneId="default" elapsed="" attempts="0" datetime="2019-09-27T19:12:30+00:00" status="skipped" name="start-gis-discovery-workflow"/>
+    <process version="2" note="" lifecycle="" laneId="default" elapsed="" attempts="0" datetime="2019-10-17T16:34:07+00:00" status="completed" name="start-gis-delivery-workflow"/>
+    <process version="2" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.003" attempts="0" datetime="2019-10-17T16:34:07+00:00" status="completed" name="load-vector"/>
+    <process version="2" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.113" attempts="0" datetime="2019-10-17T16:34:07+00:00" status="completed" name="load-raster"/>
+    <process version="2" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.414" attempts="0" datetime="2019-10-17T16:34:07+00:00" status="completed" name="load-geoserver"/>
+    <process version="2" note="" lifecycle="" laneId="default" elapsed="" attempts="0" datetime="2019-10-17T16:34:07+00:00" status="skipped" name="load-geowebcache"/>
+    <process version="2" note="" lifecycle="" laneId="default" elapsed="" attempts="0" datetime="2019-10-17T16:34:07+00:00" status="skipped" name="seed-geowebcache"/>
+    <process version="2" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.05" attempts="0" datetime="2019-10-17T16:34:07+00:00" status="completed" name="finish-gis-delivery-workflow"/>
+    <process version="2" note="" lifecycle="" laneId="default" elapsed="" attempts="0" datetime="2019-10-17T16:34:07+00:00" status="skipped" name="start-gis-discovery-workflow"/>
+    <process version="3" note="" lifecycle="" laneId="default" elapsed="" attempts="0" datetime="2019-10-17T16:34:08+00:00" status="completed" name="start-gis-delivery-workflow"/>
+    <process version="3" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.034" attempts="0" datetime="2019-10-17T16:34:08+00:00" status="completed" name="load-vector"/>
+    <process version="3" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.22" attempts="0" datetime="2019-10-17T16:34:08+00:00" status="completed" name="load-raster"/>
+    <process version="3" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="1.331" attempts="0" datetime="2019-10-17T16:34:10+00:00" status="completed" name="load-geoserver"/>
+    <process version="3" note="" lifecycle="" laneId="default" elapsed="" attempts="0" datetime="2019-10-17T16:34:08+00:00" status="skipped" name="load-geowebcache"/>
+    <process version="3" note="" lifecycle="" laneId="default" elapsed="" attempts="0" datetime="2019-10-17T16:34:08+00:00" status="skipped" name="seed-geowebcache"/>
+    <process version="3" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.059" attempts="0" datetime="2019-10-17T16:34:11+00:00" status="completed" name="finish-gis-delivery-workflow"/>
+    <process version="3" note="" lifecycle="" laneId="default" elapsed="" attempts="0" datetime="2019-10-17T16:34:08+00:00" status="skipped" name="start-gis-discovery-workflow"/>
+  </workflow>
+  <workflow objectId="druid:bc219nr7497" id="gisDiscoveryWF">
+    <process version="2" note="" lifecycle="" laneId="default" elapsed="" attempts="0" datetime="2019-10-17T16:53:18+00:00" status="completed" name="start-gis-discovery-workflow"/>
+    <process version="2" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.169" attempts="0" datetime="2019-10-17T16:53:18+00:00" status="completed" name="generate-geoblacklight"/>
+    <process version="2" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="5.781" attempts="0" datetime="2019-10-17T16:53:18+00:00" status="completed" name="load-geoblacklight"/>
+    <process version="2" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.433" attempts="0" datetime="2019-10-17T16:53:19+00:00" status="completed" name="export-opengeometadata"/>
+    <process version="2" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.0" attempts="0" datetime="2019-10-17T16:53:19+00:00" status="completed" name="finish-gis-discovery-workflow"/>
+    <process version="3" note="" lifecycle="" laneId="default" elapsed="" attempts="0" datetime="2019-10-17T16:53:19+00:00" status="completed" name="start-gis-discovery-workflow"/>
+    <process version="3" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.243" attempts="0" datetime="2019-10-17T16:53:22+00:00" status="completed" name="generate-geoblacklight"/>
+    <process version="3" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="4.452" attempts="0" datetime="2019-10-17T16:53:27+00:00" status="completed" name="load-geoblacklight"/>
+    <process version="3" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.589" attempts="0" datetime="2019-10-17T16:53:28+00:00" status="completed" name="export-opengeometadata"/>
+    <process version="3" note="kurma-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.0" attempts="0" datetime="2019-10-17T16:53:28+00:00" status="completed" name="finish-gis-discovery-workflow"/>
+  </workflow>
+  <workflow objectId="druid:bc219nr7497" id="preservationAuditWF">
+    <process version="4" note="" lifecycle="" laneId="default" elapsed="0.0" attempts="0" datetime="2020-07-16T05:10:21+00:00" status="completed" name="moab-valid"/>
+    <process version="4" note="" lifecycle="" laneId="default" elapsed="0.0" attempts="0" datetime="2020-07-16T05:10:21+00:00" status="completed" name="preservation-audit"/>
+  </workflow>
+  <workflow objectId="druid:bc219nr7497" id="preservationIngestWF">
+    <process version="1" note="" lifecycle="" laneId="default" elapsed="" attempts="0" datetime="2019-09-27T19:13:32+00:00" status="completed" name="start-ingest"/>
+    <process version="1" note="preservation-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="1.09" attempts="0" datetime="2019-09-27T19:13:32+00:00" status="completed" name="transfer-object"/>
+    <process version="1" note="preservation-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.229" attempts="0" datetime="2019-09-27T19:13:32+00:00" status="completed" name="validate-bag"/>
+    <process version="1" note="preservation-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.091" attempts="0" datetime="2019-09-27T19:13:32+00:00" status="completed" name="verify-apo"/>
+    <process version="1" note="preservation-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.352" attempts="0" datetime="2019-09-27T19:13:32+00:00" status="completed" name="update-moab"/>
+    <process version="1" note="preservation-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.055" attempts="0" datetime="2019-09-27T19:13:32+00:00" status="completed" name="update-catalog"/>
+    <process version="1" note="preservation-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.099" attempts="0" datetime="2019-09-27T19:13:32+00:00" status="completed" name="complete-ingest"/>
+    <process version="2" note="" lifecycle="" laneId="default" elapsed="" attempts="0" datetime="2019-10-17T16:51:35+00:00" status="completed" name="start-ingest"/>
+    <process version="2" note="preservation-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.856" attempts="0" datetime="2019-10-17T16:51:35+00:00" status="completed" name="transfer-object"/>
+    <process version="2" note="preservation-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.251" attempts="0" datetime="2019-10-17T16:51:35+00:00" status="completed" name="validate-bag"/>
+    <process version="2" note="preservation-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.01" attempts="0" datetime="2019-10-17T16:51:35+00:00" status="completed" name="verify-apo"/>
+    <process version="2" note="preservation-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.228" attempts="0" datetime="2019-10-17T16:51:35+00:00" status="completed" name="update-moab"/>
+    <process version="2" note="preservation-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.107" attempts="0" datetime="2019-10-17T16:51:35+00:00" status="completed" name="update-catalog"/>
+    <process version="2" note="preservation-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.07" attempts="0" datetime="2019-10-17T16:51:35+00:00" status="completed" name="complete-ingest"/>
+    <process version="3" note="" lifecycle="" laneId="default" elapsed="" attempts="0" datetime="2020-06-25T18:18:25+00:00" status="completed" name="start-ingest"/>
+    <process version="3" note="preservation-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.774" attempts="0" datetime="2020-06-25T18:18:25+00:00" status="completed" name="transfer-object"/>
+    <process version="3" note="preservation-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.145" attempts="0" datetime="2020-06-25T18:18:25+00:00" status="completed" name="validate-bag"/>
+    <process version="3" note="preservation-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.006" attempts="0" datetime="2020-06-25T18:18:25+00:00" status="completed" name="verify-apo"/>
+    <process version="3" note="preservation-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.226" attempts="0" datetime="2020-06-25T18:18:25+00:00" status="completed" name="update-moab"/>
+    <process version="3" note="preservation-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.274" attempts="0" datetime="2020-06-25T18:18:25+00:00" status="completed" name="update-catalog"/>
+    <process version="3" note="preservation-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.063" attempts="0" datetime="2020-06-25T18:18:25+00:00" status="completed" name="complete-ingest"/>
+    <process version="4" note="" lifecycle="" laneId="default" elapsed="" attempts="0" datetime="2021-10-14T16:25:22+00:00" status="completed" name="start-ingest"/>
+    <process version="4" note="preservation-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.768" attempts="0" datetime="2021-10-14T16:25:22+00:00" status="completed" name="transfer-object"/>
+    <process version="4" note="preservation-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.057" attempts="0" datetime="2021-10-14T16:25:22+00:00" status="completed" name="validate-bag"/>
+    <process version="4" note="preservation-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.145" attempts="0" datetime="2021-10-14T16:25:23+00:00" status="completed" name="update-moab"/>
+    <process version="4" note="preservation-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.169" attempts="0" datetime="2021-10-14T16:25:23+00:00" status="completed" name="update-catalog"/>
+    <process version="4" note="preservation-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.267" attempts="0" datetime="2021-10-14T16:25:22+00:00" status="completed" name="complete-ingest"/>
+    <process version="5" note="" lifecycle="" laneId="default" elapsed="" attempts="0" datetime="2021-10-14T16:25:23+00:00" status="completed" name="start-ingest"/>
+    <process version="5" note="preservation-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="1.723" attempts="0" datetime="2021-10-14T16:25:25+00:00" status="completed" name="transfer-object"/>
+    <process version="5" note="preservation-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.02" attempts="0" datetime="2021-10-14T16:25:25+00:00" status="completed" name="validate-bag"/>
+    <process version="5" note="preservation-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.071" attempts="0" datetime="2021-10-14T16:25:25+00:00" status="completed" name="update-moab"/>
+    <process version="5" note="Completed by preservation_catalog on preservation-catalog-prod-04.stanford.edu." lifecycle="" laneId="default" elapsed="2.402" attempts="0" datetime="2021-10-14T16:25:28+00:00" status="completed" name="validate-moab"/>
+    <process version="5" note="preservation-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="2.86" attempts="0" datetime="2021-10-14T16:25:33+00:00" status="completed" name="update-catalog"/>
+    <process version="5" note="preservation-robots1-prod.stanford.edu" lifecycle="" laneId="default" elapsed="0.038" attempts="0" datetime="2021-10-14T16:25:33+00:00" status="completed" name="complete-ingest"/>
+  </workflow>
+  <workflow objectId="druid:bc219nr7497" id="registrationWF">
+    <process version="1" note="" lifecycle="registered" laneId="default" elapsed="" attempts="0" datetime="2019-09-10T19:40:40+00:00" status="completed" name="register"/>
+  </workflow>
+  <workflow objectId="druid:bc219nr7497" id="versioningWF">
+    <process version="2" note="" lifecycle="opened" laneId="default" elapsed="" attempts="0" datetime="2019-10-17T16:22:05+00:00" status="completed" name="start-version"/>
+    <process version="2" note="" lifecycle="" laneId="default" elapsed="" attempts="1" datetime="2019-10-17T16:22:05+00:00" status="completed" name="submit-version"/>
+    <process version="2" note="" lifecycle="" laneId="default" elapsed="" attempts="1" datetime="2019-10-17T16:22:05+00:00" status="completed" name="start-accession"/>
+    <process version="3" note="" lifecycle="opened" laneId="default" elapsed="" attempts="0" datetime="2020-06-25T13:29:05+00:00" status="completed" name="start-version"/>
+    <process version="3" note="" lifecycle="" laneId="default" elapsed="" attempts="1" datetime="2020-06-25T13:29:05+00:00" status="completed" name="submit-version"/>
+    <process version="3" note="" lifecycle="" laneId="default" elapsed="" attempts="1" datetime="2020-06-25T13:29:05+00:00" status="completed" name="start-accession"/>
+    <process version="4" note="" lifecycle="opened" laneId="default" elapsed="" attempts="0" datetime="2021-10-14T16:12:50+00:00" status="completed" name="start-version"/>
+    <process version="4" note="" lifecycle="" laneId="default" elapsed="" attempts="1" datetime="2021-10-14T16:12:50+00:00" status="completed" name="submit-version"/>
+    <process version="4" note="" lifecycle="" laneId="default" elapsed="" attempts="1" datetime="2021-10-14T16:12:50+00:00" status="completed" name="start-accession"/>
+    <process version="5" note="" lifecycle="opened" laneId="default" elapsed="" attempts="0" datetime="2021-10-14T17:06:05+00:00" status="completed" name="start-version"/>
+    <process version="5" note="" lifecycle="" laneId="default" elapsed="" attempts="1" datetime="2021-10-14T17:06:05+00:00" status="completed" name="submit-version"/>
+    <process version="5" note="" lifecycle="" laneId="default" elapsed="" attempts="1" datetime="2021-10-14T17:06:05+00:00" status="completed" name="start-accession"/>
+    <process version="6" note="" lifecycle="opened" laneId="default" elapsed="" attempts="0" datetime="2021-10-14T17:06:05+00:00" status="completed" name="start-version"/>
+    <process version="6" note="" lifecycle="" laneId="default" elapsed="" attempts="1" datetime="2021-10-14T17:06:05+00:00" status="completed" name="submit-version"/>
+    <process version="6" note="" lifecycle="" laneId="default" elapsed="" attempts="1" datetime="2021-10-14T17:06:05+00:00" status="completed" name="start-accession"/>
+  </workflow>
+</workflows>

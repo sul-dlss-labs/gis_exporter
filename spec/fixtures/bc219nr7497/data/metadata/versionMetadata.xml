@@ -1,0 +1,5 @@
+<versionMetadata objectId="druid:bc219nr7497">
+  <version versionId="1" tag="1.0.0">
+    <description>Initial Version</description>
+  </version>
+<version versionId="2" tag="1.1.0"><description/></version><version versionId="3" tag="1.2.0"><description/></version><version versionId="4" tag="1.3.0"><description/></version><version versionId="5" tag="2.0.0"><description>opening to change collection</description></version><version versionId="6" tag="3.0.0"><description>add related item descMD</description></version></versionMetadata>

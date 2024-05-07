@@ -1,0 +1,21 @@
+<rightsMetadata>
+  <access type="discover">
+    <machine>
+      <world/>
+    </machine>
+  </access>
+  <access type="read">
+    <machine>
+      <world/>
+    </machine>
+  </access>
+  <use>
+    <human type="creativeCommons">Attribution Non-Commercial, No Derivatives 4.0 Unported</human>
+    <machine type="creativeCommons" uri="https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode">by-nc-nd</machine>
+    <human type="useAndReproduction">This work is licensed under a Creative Commons license. The material is made available for non-commercial, research purposes. Any third party material may need to be permissioned separately for reuse.</human>
+    <license>https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode</license>
+  </use>
+  <copyright>
+    <human>Stanford University, 2019.</human>
+  </copyright>
+</rightsMetadata>

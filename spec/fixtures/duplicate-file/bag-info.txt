@@ -1,0 +1,3 @@
+External-Identifier: druid:bc219nr7497-v6
+Payload-Oxum: 565568.12
+Bag-Size: 552.31 KB

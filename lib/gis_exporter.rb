@@ -28,7 +28,14 @@ class GisExporter
 
   def export_zip_files
     data_zip_entries.each do |entry|
-      File.open(@export_dir.join(entry.name), 'wb') do |output|
+      # ignore directories
+      next if entry.directory?
+
+      # use the filename and throw an exception if a file already exists
+      filename = @export_dir.join(File.basename(entry.name))
+      raise DuplicateFilename, "#{export_dir} already contains file for #{filename}" if File.exist?(filename)
+
+      File.open(filename, 'wb') do |output|
         entry.get_input_stream do |input|
           while (data = input.read(8192))
             output.write(data)
@@ -77,5 +84,8 @@ class GisExporter
   end
 
   class ExportDirExists < Error
+  end
+
+  class DuplicateFilename < Error
   end
 end

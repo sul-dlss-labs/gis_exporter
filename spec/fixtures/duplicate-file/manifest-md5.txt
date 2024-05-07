@@ -1,0 +1,12 @@
+321fb2a7778146ac7aaba4906245e8f7 data/content/data.zip
+bd332d79f9a10b028c63abd76060bdaa data/content/preview.jpg
+d52d95be9cbb7cc02f7c9d3b4c7cb82a data/metadata/contentMetadata.xml
+8e936a37d5ac1cad5fccfe7c2e829d2d data/metadata/descMetadata.xml
+f7faf8c1f124d88827de55f86c1d6b85 data/metadata/events.xml
+6ae667e5d8c59e195e5ad305dd8de9b3 data/metadata/geoMetadata.xml
+6ede3406a40e0c4a70e91ea7a3764490 data/metadata/identityMetadata.xml
+84b4c369070326128b92bea4c21909b8 data/metadata/provenanceMetadata.xml
+17bd54d80454683ac670fdffec82e3ee data/metadata/relationshipMetadata.xml
+3456113ef28a3aae90b1c1915635bc41 data/metadata/rightsMetadata.xml
+8a442192ed77d21d29afd06623439ec7 data/metadata/versionMetadata.xml
+f8db387b3efb4aa99c5e0fed08cd0d27 data/metadata/workflows.xml

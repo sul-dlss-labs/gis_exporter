@@ -1,0 +1,35 @@
+<contentMetadata objectId="bc219nr7497" type="geo">
+  <resource id="bc219nr7497_1" sequence="1" type="object">
+    <label>Data</label>
+    <file preserve="yes" shelve="yes" publish="yes" id="data.zip" mimetype="application/zip" size="403097" role="master">
+      <geoData>
+        <rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://purl.stanford.edu/bc219nr7497">
+        <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/x-ogc-aig; format=ArcGRID</dc:format>
+        <dc:type xmlns:dc="http://purl.org/dc/elements/1.1/">Dataset#Raster</dc:type>
+        <gml:boundedBy xmlns:gml="http://www.opengis.net/gml/3.2/">
+          <gml:Envelope gml:srsName="EPSG:4326">
+            <gml:lowerCorner>31.1933061 29.8603659</gml:lowerCorner>
+            <gml:upperCorner>31.2304278 29.9084766</gml:upperCorner>
+          </gml:Envelope>
+        </gml:boundedBy>
+        <dc:coverage xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:resource="" dc:language="eng" dc:title="&#x1E62;aqq&#x101;rah (Egypt)"/>
+      </rdf:Description>
+      </geoData>
+      <checksum type="sha1">c183ae582983cd26b76b4d63d976c1fda076dd32</checksum>
+      <checksum type="md5">321fb2a7778146ac7aaba4906245e8f7</checksum>
+    </file>
+    <file preserve="no" shelve="yes" publish="yes" id="data_EPSG_4326.zip" mimetype="application/zip" size="385638" role="derivative">
+      <geoData srsName="EPSG:4326"/>
+      <checksum type="sha1">635a4042372f8aa74365ab2cc6a844968dab7dd8</checksum>
+      <checksum type="md5">c29370fe1fc95d9eb7bc27155908b9b2</checksum>
+    </file>
+  </resource>
+  <resource id="bc219nr7497_2" sequence="2" type="preview">
+    <label>Preview</label>
+    <file preserve="yes" shelve="yes" publish="yes" id="preview.jpg" mimetype="image/jpeg" size="83561" role="master">
+      <checksum type="sha1">acb6efd085637c8bd5e9427c5d19611cf82f8ea1</checksum>
+      <checksum type="md5">bd332d79f9a10b028c63abd76060bdaa</checksum>
+      <imageData width="1385" height="951"/>
+    </file>
+  </resource>
+</contentMetadata>
